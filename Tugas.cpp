@@ -55,3 +55,8 @@ class BelahKetupat {
     }
 };
 
+void tampilkanKeliling(LayangLayang &l) //Lengkapi disini
+{
+    cout << "Keliling Layang-Layang : " << 2 * (l.s1 + l.s2) << endl;
+} //Lengkapi disini
+
