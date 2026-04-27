@@ -73,7 +73,8 @@ int main() {
     cout << "Luas Belah Ketupat     : " <<ObjectBelah.hitungLuas() <<endl;
 
     //Lengkapi disini
-    tampilkanKeliling(ObjectLayang);
+    cout << "\n--- Hasil Keliling ---" << endl;
+    tampilkanKeliling(ObjectLayang); 
     cout << "Keliling Belah Ketupat : " << ObjectBelah.hitungKeliling() << endl;
 
     return 0;
