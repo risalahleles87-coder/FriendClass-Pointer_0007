@@ -8,3 +8,26 @@
 
 using namespace std;
 
+class BelahKetupat;
+
+class LayangLayang {
+    private:
+    //Lengkapi disini
+    double d1, d2; // diagonal
+    double s1, s2; // sisi
+
+    public:
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+    //Lengkapi disini
+    void inputData() {
+        cout << "Input Layang-Layang\n";
+        cout << "Diagonal 1 : "; cin >> d1;
+        cout << "Diagonal 2 : "; cin >> d2;
+        cout << "Sisi 1     : "; cin >> s1;
+        cout << "Sisi 2     : "; cin >> s2;
+    }
+        friend void tampilkanKeliling(LayangLayang &l);
+};
+
