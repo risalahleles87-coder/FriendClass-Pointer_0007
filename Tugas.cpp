@@ -31,3 +31,27 @@ class LayangLayang {
         friend void tampilkanKeliling(LayangLayang &l);
 };
 
+class BelahKetupat {
+    private:
+    //Lengkapi disini
+    double d1, d2; // diagonal
+    double sisi;
+
+    public:
+    void inputData() {
+        //Lengkapi disini
+        cout << "\nInput Belah Ketupat\n";
+        cout << "Diagonal 1 : "; cin >> d1;
+        cout << "Diagonal 2 : "; cin >> d2;
+        cout << "Sisi       : "; cin >> sisi;
+    }
+    double hitungLuas() {
+        return 0.5 * d1 * d2;
+    }
+
+    //Lengkapi disini
+    double hitungKeliling() {
+        return 4 * sisi;
+    }
+};
+
