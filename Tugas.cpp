@@ -4,3 +4,7 @@
 //Semua class hanya dapat diakses menggunakan object.
 
 #include <iostream>
+#include <cmath>
+
+using namespace std;
+
